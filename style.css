@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    background-color: #FFD900;
+    left: 0;
+    top: 0;
+    border-radius: 0px;
+    height: 120px;
+}
+
+img {
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+#sec1{
+    display: grid;
+    grid-auto-flow: column;
+    height: 694px;
+    margin-bottom: 80px;
+}
+#desc{
+    background: #514988;
+    padding-top: 35px;
+
+}
+
+#titulo{
+    text-align: center;
+    color: #F3C61F;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+
+}
+
+#data{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+
+}
+
+#conteudo{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    margin-top: 60px;
+}
+
+.timer{
+    display: grid;
+    grid-auto-flow: column;
+    color: #514988;
+    font-style: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: space-around;
+    fill: solid;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+#inter2{
+    color: #E33881;
+    text-align: center;
+    width: 715px;
+    font-size: 30px;
+    margin: 0% auto;
+    margin-top: 10px;
+    
+
+}
+
+#video{
+    margin-left: 5px;
+    width: 1250px;
+
+}
+
+#compre{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 150px;
+
+}
+
+#inf{
+    color: #F3C61F;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 27px;
+    margin-left: 50px;
+}
+
+button{
+    background-color: #514988;
+    width: 596px;
+    height: 148px;
+    border-radius: 20px;
+    color:  #FFFFFF;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    border: 0;
+    margin-top: 60px;
+}
+
+form{
+    background-color: #FFD900;
+    margin-top: 30px;
+
+
+}
+
+input{
+    background-color: #514988;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: 0pt;
+    margin: 30px;
+    width: 300px;
+    height: 70px;
+    font-size: 30px;
+    padding: 10px;
+
+}
+
+button:hover{
+    cursor: pointer;
+    background: #514988;
+    color: rgb(242, 117, 72);
+}
+
+.card-highlight
+{
+    box-shadow: 10px 10px 10px 10px grey;
+}
+
+.card-selected{
+    border: 5px solid green;
+}
+
